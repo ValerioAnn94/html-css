@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 63.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.5 rem;
+}
+.btn:hover{
+    background:burlywood
+}
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 30px;
+    padding: 1 rem;
+}
+.heading span{
+    color:burlywood ; 
+}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid burlywood;
+}
+header .user .name{
+    font-size: 30px;
+    color: white;
+
+
+}
+header .user .post{
+    font-size: 20px;
+    color: white;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 4px;
+    margin: 6px;
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 5em;
+}
+header .navbar ul li a:hover{
+    background:burlywood
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home h3{
+    font-size: 2.5rem;
+    color: white;
+}
+.home h1{
+    font-size: 5rem;
+    color: white;
+}
+.home p{
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+}
+.chi.sono .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.chi.sono .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.chi.sono .info h3{
+    font-size: 3.5rem;
+    color:burlywood;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.chi.sono .info h3 span{
+    color: white;
+    padding: 0 0.5rem;
+}
+.skills .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 9rem 0;
+    padding-left: 3rem;
+
+}
+.skills .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.1rem solid white;
+    position: relative;
+}
+.skills .box-container .box span{
+    font-size: 1.5rem;
+    background: grey;
+    color: white;
+    border-radius: 52rem;
+    padding:0.5rem 2.5rem;
+}
+.skills .box-container .box p{
+    font-size: 1.4rem;
+    color: white;
+    padding: 1.5rem 0;
+
+}
+.skills .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background: burlywood
+}
+.contatti .row{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contatti .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding: 1rem 4rem;
+    }
+}
+@media (max-width:991px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: none;
+    }
+    body{
+        padding: 0%;
+    }
+}
+@media (max-width:768px){
+    html{
+     font-size: 50%;
+    }
+ 
+ }
+@media (max-width:400px){
+    header{
+     width: 100vw;
+    }
+ 
+ }
